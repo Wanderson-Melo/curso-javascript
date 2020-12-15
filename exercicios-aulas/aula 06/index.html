@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo! Vamos apre der Javascript</h1>
+    <script>
+        var nome = window.prompt("Oi, qual é o seu nome?")
+        alert("Nossa, " + nome + " é um lindo nome!")
+        var idade = Number(prompt('Quanto anos você tem ' + nome + " ?"))
+        if(idade < 18){var resposta = "Gente temos um bebê aqui, brincadeirinha, é um prazer te conhecer"}
+        else if(idade < 30){resposta = "Legal um jovem adulto, vamos falar de negócios..."}
+        else if(idade < 50){resposta = "Nossa não parace, eu te daria no máximo uns " + (idade - 5)}
+        else{resposta = "Nossa não parace, eu te daria no máximo uns " + (idade - 10)}
+        alert(resposta)
+    </script>
+</body>
+</html>
