@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checagem de Nacionalidade</title>
+</head>
+<body>
+    <h1>Checando a nacionalidade</h1>
+    Em qual país você mora: <input type="text" name="pais" id="pais">
+    <input type="button" value="Checar!" onclick="checagem()">
+    <div id="nasc">
+        
+    </div>
+    <script>
+        function checagem(){
+            var pais = window.document.getElementById('pais')
+            var nasc = window.document.getElementById('nasc')
+            var paix = (pais.value) //em JS preciso especificar que quero o valor da variável/objeto.
+            if(paix == 'Brasil'){
+                nasc.innerHTML = '<p>Você é brasileiro!</p>'
+            } else {
+                nasc.innerHTML = '<p>Você é estranjeiro!</p>'
+            }
+        }
+    </script>
+</body>
+</html>
