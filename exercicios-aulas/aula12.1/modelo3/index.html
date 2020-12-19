@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div class="formulario">          
+            Ano de Nascimento: <input type="number" name="txtano" id="txtano" min="0"><br>       
+            Sexo:   masculino <input type="radio" name="sex" id="masculino">
+                    feminino <input type="radio" name="sex" id="feminino"><br> 
+            <input type="button" value="Verificar" class="lineForm" onclick="verificar()">
+        </div>
+        <div id="foto">
+            <p id='msg'> </p>
+            <!--
+            <img id="imagem" class="foto" src="_images/menino_pexels-luna-lovegood-1104007.jpg" alt="Imagem de pessoa conforme parametros estabelicidos">
+            -->
+        </div>
+    </section>
+    <footer>
+        <p class = 'copyright'>&copy; Curso em Vídeo</p>
+        <P class="nota">Exercício desenvolvido por <strong>Wanderson Melo</strong></P>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <style>
+        body{
+            background: red;
+            color: black;
+            font: italic 50pt Times;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nameUser = prompt('What is your name?');
+        var frase1 = 'Happy Birthday to you.<br>';
+        var frase2 = 'Happy Birthday dear ' + nameUser + ',<br>';
+        var count = 2;
+
+        //Programa para escrever na tela
+        while(nameUser == false || nameUser == null){ //Quando clica em cancela o JS atribui 'null' que é != de false
+            alert('We would like to know your name');
+            nameUser = prompt('What is your name?');
+            frase2 = 'Happy Birthday dear ' + nameUser + ',<br>';//Atualização de frase2 se negativa de nome
+            };
+        
+        while(count > 0){
+            document.write(frase1);
+            count--
+            };
+        
+        document.write(frase2);
+        document.write(frase1);
+        
+        //Um pouco de DOM
+        document.body.style.background = '#1870b0'; //A cor deve ser em código
+        document.body.style.color = '#ffffff';
+        document.body.style.font = 'normal 25pt Arial';
+    </script>
+</body>
+</html>

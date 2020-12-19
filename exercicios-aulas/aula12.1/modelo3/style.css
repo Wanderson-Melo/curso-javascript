@@ -1,0 +1,54 @@
+body{
+    background: rgb(85, 150, 172);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px gray;
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+}
+
+.formulario{
+    text-align: left;
+}
+
+.lineForm{
+    margin: 5px;
+}
+
+.foto{
+    border-radius: 50%;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin: 0px;
+}
+
+.copyright{
+    margin-bottom: 10px;
+}
+
+.nota{
+    font-size: 11pt;
+    font-style: normal;
+    color: lightgrey;
+    padding-top: 0;
+    margin-top: 0;
+}
