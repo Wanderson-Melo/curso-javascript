@@ -4,5 +4,5 @@ Este repositório serve para abrigar os exemplos e exercícios desenvolvidos dur
 
 Nesse momento há exercicios das seguintes fontes:
 
- Curso em vídeo (curso online)
- Head First: JavaScript (livro)
+* Curso em vídeo (curso online)
+* Head First: JavaScript (livro)
