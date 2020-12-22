@@ -10,7 +10,7 @@ function calcular(){
         for(let count = 0; count <= 10; count++){
             let item = document.createElement('option')
             item.text = `${numero} x ${count} = ${numero*count}`
-            item.value = `tabuada${count}`
+            item.value = `tabuada${count}`//valor de cada linha da tabuada informação para PHP ou outro software Back-End
             tabuada.appendChild(item);
         }
     }
